@@ -1,0 +1,23 @@
+body{
+    background-color: #fff;
+    display: flex;
+    margin: 15px 0px;
+    justify-content: center;
+}
+.frame{
+    background: #F4EEFF;
+    border-radius: 40px;
+    height: 932px;
+    box-shadow: 0px 0px 15px 0px rgba(66, 72, 116, 0.45);
+    width: 430px;
+}
+.inner{
+    padding: 0 30px;
+}
+.ff-l{
+    font-family: "Libre Baskerville", serif;
+}
+.ff-c{
+    font-family: "Crimson Text", serif;
+}
+  
