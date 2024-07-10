@@ -73,6 +73,28 @@ select{
 .schedule{
     border-bottom: 2px solid #424874 ;
 }
+.calendar-task{
+    border-left: 4px solid #424874;
+    padding-left: 16px;
+    padding-right: 20px;
+}
+.calendar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    line-height: 120%;
+    font-size: 16px;
+    font-weight: 700;
+    color: #F4EEFF;
+}
+.today{
+    border-radius: 100%;
+    background-color: #F4EEFF;
+    color: #424874;
+    box-shadow: 0px 0px 10px 0px rgba(30, 30, 30, 0.25);
+}
 
 
 
@@ -184,6 +206,12 @@ select{
 .h-45p{
     height: 45px;
 }
+.h-48p{
+    height: 48px;
+}
+.h-50p{
+    height: 50px;
+}
 .h-200p{
     height: 200px;
 }
@@ -204,6 +232,9 @@ select{
 }
 .m-0{
     margin: 0px!important;
+}
+.mb-20{
+    margin-bottom: 20px;
 }
 .mb-30{
     margin-bottom: 30px;
@@ -235,6 +266,9 @@ select{
 .pt-50{
     padding-top: 50px;
 }
+.pt-62{
+    padding-top: 62px;
+}
 .pb-5{
     padding-bottom: 5px;
 }
@@ -254,9 +288,17 @@ select{
     padding-right: 9px;
     padding-left: 9px;
 }
+.px-10{
+    padding-right: 10px;
+    padding-left: 10px;
+}
 .px-16{
     padding-right: 16px;
     padding-left: 16px;
+}
+.px-20{
+    padding-right: 20px;
+    padding-left: 20px;
 }
 .rounded-15{
     border-radius: 15px;
