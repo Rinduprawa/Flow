@@ -104,6 +104,9 @@ select{
     color: #424874;
     box-shadow: 0px 0px 10px 0px rgba(30, 30, 30, 0.25);
 }
+.table-title{
+    border-bottom: 1px solid #424874;
+}
 
 
 
@@ -133,6 +136,9 @@ select{
 }
 .c-a6{
     color: #A6B1E1;
+}
+.c-b4{
+    color: #B4B4B4;
 }
 .c-dc{
     color: #DCD6F7;
@@ -221,6 +227,9 @@ select{
 .h-40p{
     height: 40px;
 }
+.h-43p{
+    height: 43px;
+}
 .h-45p{
     height: 45px;
 }
@@ -250,6 +259,9 @@ select{
 }
 .m-0{
     margin: 0px!important;
+}
+.mb-10{
+    margin-bottom: 10px;
 }
 .mb-20{
     margin-bottom: 20px;
@@ -346,6 +358,12 @@ select{
 }
 .w-50p{
     width: 50px;
+}
+.w-74p{
+    width: 74px;
+}
+.w-75p{
+    width: 75px;
 }
 .w-80p{
     width: 80px;
