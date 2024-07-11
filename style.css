@@ -10,6 +10,7 @@ h1{
 }
 a{
     text-decoration: none;
+    cursor: pointer;
 }
 select{
     border: 0px;
@@ -33,33 +34,27 @@ select{
     justify-content: space-between;
 }
 .nav{
-    align-items: center;
-    border-radius: 0px 0px 40px 40px;
-    box-shadow: 0px 0px 10px 0px rgba(66, 72, 116, 0.2);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 20px 30px;
+    border-radius: 0px 0px 40px 40px;
+    box-shadow: 0px 0px 10px 0px rgba(66, 72, 116, 0.2);
     width: 370px;
 }
 .nav-items{
-    align-items: center;
-    border-radius: 50px;
     display: flex;
     flex-direction: column;
-    height: 60px;
     justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    height: 60px;
     width: 60px;
     transition: transform .4s, background-color 0.2s ease;
 }
 .nav-items:hover{
     background:#DCD6F7;
     transform: scale(0.9);
-}
-.home-card{
-    box-shadow: 0px 0px 10px 0px rgba(66, 72, 116, 0.25);
-}
-.notes-card{
-    box-shadow: 0px 0px 10px 0px rgba(66, 72, 116, 0.5);
 }
 .header-card{
     padding: 50px 20px 20px;
@@ -93,9 +88,9 @@ select{
     align-items: center;
     width: 50px;
     height: 50px;
-    line-height: 120%;
     font-size: 16px;
     font-weight: 700;
+    line-height: 120%;
     color: #F4EEFF;
 }
 .today{
@@ -133,6 +128,7 @@ select{
 }
 
 
+
 .align-center{
     align-items: center;
 }
@@ -155,10 +151,10 @@ select{
     box-shadow: 0px 0px 10px 0px rgba(66, 72, 116, 0.2);
 }
 .bs-42-25{
-    box-shadow: 0px 0px 10px 0px rgba(66, 72, 116, 0.2);
+    box-shadow: 0px 0px 10px 0px rgba(66, 72, 116, 0.25);
 }
 .bs-42-50{
-    box-shadow: 0px 0px 10px 0px rgba(66, 72, 116, 0.2);
+    box-shadow: 0px 0px 10px 0px rgba(66, 72, 116, 0.50);
 }
 .c-1e{
     color: #1E1E1EE1;
@@ -186,9 +182,6 @@ select{
 }
 .d-grid{
     display: grid;
-}
-.ff-l{
-    font-family: "Libre Baskerville", serif;
 }
 .ff-c{
     font-family: "Crimson Text", serif;
@@ -324,6 +317,9 @@ select{
 }
 .mt-30{
     margin-top: 30px;
+}
+.outline-none{
+    outline: none;
 }
 .place-center{
     place-items: center;
@@ -463,8 +459,8 @@ select{
     width: 160px;
     cursor: pointer;
     margin-top: 2.4px;
-    color: #1E1E1EE1;
     line-height: 110%;
+    color: #1E1E1EE1;
 }
 .cb input {
     opacity: 0;
@@ -510,13 +506,13 @@ select{
 
 .accordion-title {
     display: flex;
-    gap: 10px;
     align-items: center;
-    font-weight: bold;
+    gap: 10px;
     font-size: 24px;
+    font-weight: bold;
+    color: #1E1E1EE1;
     height: 29px;
     cursor: pointer;
-    color: #1E1E1EE1;
 }
 .accordion-content {
     padding-top: 20px;
@@ -526,7 +522,6 @@ select{
     align-items: center;
     transition: transform 0.3s;
 }
-
 .accordion-title.active .chevron {
     transform: rotate(180deg);
 }
