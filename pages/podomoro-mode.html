@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Focus Mode</title>
+    <title>Podomoro Mode</title>
     <link rel="icon" href="/img/flow.png">
 
     <!-- FONT -->
@@ -31,16 +31,16 @@
 
             <!-- TABS -->
             <div class="container px-30">
-                <a href="/pages/podomoro-mode.html" class="d-flex align-center justify-center h-40p w-163p b-f4 c-42 rounded-30 bs-42-20 transform-min transition-ease">Podomoro Mode</a>
+                <a href="/pages/timer-mode.html" class="d-flex align-center justify-center h-40p w-163p b-f4 c-42 rounded-30 bs-42-20 transform-min transition-ease">Timer Mode</a>
                 <a href="" class="d-flex align-center justify-center h-40p w-163p b-f4 c-42 rounded-30 bs-42-20 transform-min transition-ease">Stopwatch Mode</a>
             </div>
 
             <!-- CONTENT -->
              <div class="d-grid gap-150 justify-center p-95">
                 <div class="d-grid gap-24">
-                    <div class="fs-32 fw-600 lh-24 c-42 text-center">Timer Mode</div>
-                    <div class="clock-container">
-                        <input type="text" class="clock" value="00:25:00">
+                    <div class="fs-32 fw-600 lh-24 c-42 text-center">Podomoro Mode</div>
+                    <div class="clock-container b-42">
+                        <input type="text" class="clock c-f4" value="00:25:00">
                     </div>
                 </div>
                 <div class="d-flex justify-center">
@@ -49,6 +49,20 @@
              </div>
         </div>
 
+        <!-- FOCUS TIME -->
+        <div class="podomoro-focus d-grid gap-5">
+            <div class="d-grid gap-16">
+                <div class="fs-24 fw-600 lh-24 c-1e">Focus Time</div>
+                <div class="fs-20 fw-600 lh-24 c-1e">Next up:</div>
+            </div>
+            <div class="container">
+                <div class="fs-20 lh-24 c-1e">Break time</div>
+                <div class="d-flex align-center gap-5">
+                    <div class="" style="background: #a6b1e1; width: 12px; height: 12px; border-radius: 100%;"></div>
+                    <div class="fs-20 lh-24 c-1e">10:05 AM</div>
+                </div>
+            </div>
+        </div>
 
         <!-- NAVIGATION -->
         <div class="nav">
